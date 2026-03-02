@@ -37,7 +37,7 @@
 
         <!-- Feature -->
         <ul class="text-center space-y-1">
-            <li v-for="(item, index) in features" :key="index">
+            <li v-for="item in features">
                 ✓ {{ item }}
             </li>
             
