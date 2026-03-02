@@ -37,10 +37,18 @@
 
         <!-- Feature -->
         <ul class="text-center space-y-1">
-            <li v-for="item in features">
+            <li v-for="item in features" >
                 ✓ {{ item }}
             </li>
             
+
+            <!-- <li v-for="item in features":key="item.title" v-bind="item">
+                ✓ {{ item }}
+            </li> -->
+
+            <!-- <li v-for="(item, index) in features" :key="index">
+                ✓ {{ item }}
+            </li> -->
         </ul>
 
     </div>
